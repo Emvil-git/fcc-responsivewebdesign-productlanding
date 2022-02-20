@@ -1,0 +1,417 @@
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background-color: #141414;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+
+}
+
+#main{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    color: #fbfbfb;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+}
+
+p{
+    margin: 0;
+    color: #fbfbfb;
+    font-family: 'Gruppo', cursive;
+}
+
+#header{
+    top: 0;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #141414;
+    padding: 1rem 3rem;
+    border-bottom: 2px solid #999999 ;
+    box-shadow: 2px 0px 18px #000000;
+}
+
+#header-img{
+    height: 36px;
+    margin-right: 1rem;
+}
+
+.nav-link{
+    color: #ff5132;
+    font-family: 'Teko', sans-serif;
+    font-weight: lighter;
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    padding-left: 1rem;
+    margin-left: 3rem;
+    transition: 0.4s;
+}
+
+.nav-link:hover{
+    color: #fbfbfb;
+}
+
+#product-body{
+    padding: 0px 20%;
+}
+
+#product-flavor{
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 6rem;
+    padding: 15rem 0px !important;
+    height: 100%;
+    margin: 0;
+    text-shadow: 5px 5px 25px #141414;
+    background-image: url("images/Edge_Type_3_Fragment_Axe.png");
+    background-repeat: no-repeat;
+    background-position: 50% 65%;
+    background-size: 100%;
+}
+
+#video-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.div-header{
+    width: 100%;
+    font-size: 3rem;
+    margin: 0;
+    color: #ff5132;
+    font-weight: lighter;
+}
+
+.div-text{
+    color: #d6d6d6;
+    font-size: 1.15rem;
+    line-height: 1.5rem;
+}
+
+#video{
+    margin-top: 5rem;
+    height: 360px;
+    width: 640px;
+    border-style: none;
+}
+
+#features-div{
+    padding-top:7rem;
+    padding-bottom:4rem;
+    border-bottom: 1px solid #ff5132;
+}
+
+.feature-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0rem;
+}
+
+.feature-icon{
+    height: 60px;
+    width: 60px;
+    margin-right: 4rem;
+    margin-left: 1rem;
+}
+
+.feature-header{
+    font-size: 3rem;
+    font-weight: lighter;
+    color: #ff5132;
+    letter-spacing: 0.15rem;
+    margin: 0.15rem 0px;
+    margin-top: -0.5rem;
+}
+
+.feature-text{
+    font-size: 1.15rem;
+    color: #d6d6d6;
+}
+
+#pricing-flavor-subtext{
+    text-align: center;
+    padding-top: 6rem;
+    margin-bottom: 0rem;
+    font-weight: lighter;
+}
+
+#pricing-flavor-header{
+    color: #ff5132;
+    text-align: center;
+    font-size: 5rem;
+    margin: -1rem 0px;
+}
+
+#pricing-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin: 7rem -1rem;
+    margin-top: 0;
+}
+
+.pricing-card{
+    background: rgb(31,31,31);
+    background: linear-gradient(211deg, rgba(31,31,31,1) 0%, rgba(57,57,57,1) 100%);
+    margin:0 1rem;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.pricing-title{
+    text-align: center;
+    margin-top: 0;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    height:3rem;
+}
+
+.pricing-text{
+    color: #d6d6d6;
+    margin: 2rem 0px;
+    line-height: 1.5rem;
+}
+
+.pricing-btn{
+    font-family: 'Teko', sans-serif;
+    font-weight: lighter;
+    font-size: 1.25rem;
+    letter-spacing: 0.1rem;
+    padding: 0.5rem 0px;
+    background-color: #ff5132;
+    border: 2px solid #ff5132;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.pricing-btn:hover{
+    padding: 0.5rem 0px;
+    color:#ff5132;
+    background: linear-gradient(211deg, rgba(31,31,31,1) 0%, rgba(57,57,57,1) 100%);
+}
+
+.pricing-btn:active{
+    background-color: #2e2e2e;
+}
+
+#form-div{
+    background: radial-gradient(circle, rgba(255,81,50,1) 0%, rgba(228,77,50,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 21rem;
+    box-shadow: inset 2px 0px 8px #141414;
+}
+
+#form-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-flavor{
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-weight: lighter;
+    font-size: 5rem;
+    line-height: 4rem;
+    margin-bottom: 2rem;
+}
+
+#email{
+    background-color: #fbfbfb;
+    font-family: 'Gruppo', cursive;
+    font-size: 1.15rem;
+    font-weight: bold;
+    width: 36rem;
+    height: 46px;
+    border-style: none;
+    border-radius: 5px 0 0 5px ;
+    padding-left: 1rem;
+}
+
+#email:focus{
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+}
+
+#submit{
+    height: 48px;
+    font-family: 'Teko', sans-serif;
+    font-weight: lighter;
+    color: #fbfbfb;
+    font-size: 1.25rem;
+    letter-spacing: 0.1rem;
+    padding: 0.5rem 2rem;
+    background-color: #141414;
+    border: 2px solid #141414;
+    border-radius: 0 5px 5px 0;
+    transition: 0.4s;
+}
+
+#submit:hover{
+    color:#141414;
+    background: radial-gradient(circle, rgba(255,81,50,1) 0%, rgb(245, 79, 50) 100%);
+}
+
+#footer{
+    padding: 1rem 2rem;
+    text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+    #header{
+        top: 0;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1rem 3rem;
+    }
+
+    #header-img{
+        height: 72px;
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+
+    #nav-bar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding:0;
+    }
+
+    .nav-link{
+        padding: 0;
+        margin: 0;
+    }
+    
+    #product-body{
+        padding: 0 2rem;
+    }
+
+    #product-flavor{
+        padding: 8rem 0px 4rem 0px !important;
+        line-height: 5.5rem;
+        background-position: 50% 90%;
+    }
+
+    .div-header{
+        line-height: 2.25rem;
+        margin-bottom: 1rem;
+    }
+
+    #video{
+        width: 100%;
+    }
+
+    .feature-card{
+        flex-direction: column;
+        margin: 3rem 0rem;
+    }
+
+    .feature-icon{
+        margin:0;
+        margin-bottom:1.5rem;
+    }
+
+    .feature-header{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .div-text{
+        font-size:1.15rem;
+        line-height: 1.15rem;
+    }
+
+    #pricing-flavor-header{
+        line-height: 4rem;
+        margin: 0;
+        margin-bottom:2rem;
+    }
+
+    #pricing-div{
+        grid-template-columns: 1fr;
+        row-gap: 1rem;
+    }
+
+    .pricing-card{
+        padding: 1rem 2rem;
+    }
+    
+    .pricing-title{
+        margin: 0;
+    }
+
+    .pricing-text{
+        margin: 1rem 1rem 2rem 1rem;
+        line-height: 1.15rem
+    }
+
+    #form-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 2rem;
+    }
+
+    
+    #form-flavor{
+        font-size: 4rem;
+        line-height: 3.5rem;
+    }
+
+    #form{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #email{
+        font-size: 1rem;
+        width: 130%;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+    }
+
+    #submit{
+        border-radius: 5px;
+    }
+}
